@@ -19,5 +19,10 @@ public static void main(String[] args) {
     al.add(456);
     al.add("job");
     System.out.println(al);
+    
+    al.add(0, "selenium");
+    System.out.println(al);
+    
+    Object object = al.get(0);
 }
 }
