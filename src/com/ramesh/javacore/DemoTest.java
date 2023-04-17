@@ -10,6 +10,7 @@ public class DemoTest {
 	public float addition(float num1,float num2) {
 		float result = num1+num2;
 		System.out.println("float float Result is:" +result);
+		System.out.println("hardwork");
 		return result;
 	}
 	
